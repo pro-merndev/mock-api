@@ -1,4 +1,5 @@
 {
+  "/NewFirms": "/firms_search",
   "/NewFirms/Cities": "/cities_values",
   "/NewFirms/States": "/states_values",
   "/NewFirms/Countries": "/countries_values",
