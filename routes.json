@@ -1,0 +1,13 @@
+{
+  "/NewFirms/Cities": "/cities",
+  "/NewFirms/States": "/states",
+  "/NewFirms/Countries": "/countries",
+  "/NewFirms/ServiceProviders/Auditor": "/serviceProviders/auditor",
+  "/NewFirms/ServiceProviders/PrimeBroker": "/serviceProviders/primeBroker",
+  "/NewFirms/ServiceProviders/Custodian": "/serviceProviders/custodian",
+  "/NewFirms/ServiceProviders/Administrator": "/serviceProviders/administrator",
+  "/NewFirms/ServiceProviders/Marketer": "/serviceProviders/marketer",
+  "/AssetTypes": "/assetTypes",
+  "/NewFirms/TAMPOptions/InUse": "/tampOptions",
+  "/FirmTypeOptions": "/firmTypeOptions"
+} 

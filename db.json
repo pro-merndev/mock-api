@@ -1,0 +1,199 @@
+{
+  "savedSearches": {
+    "data": [
+      {
+        "$id": "1",
+        "$values": [
+          {
+            "$id": "2",
+            "idSavedSearch": 31,
+            "name": "morgan",
+            "searchType": "firm",
+            "searchObject": "{\"sorting\":[{\"id\":\"totalAuM\",\"desc\":true}],\"pagination\":{\"pageIndex\":0,\"pageSize\":50},\"searchManagerName\":\"morgan\",\"searchCity\":\"\",\"searchState\":\"\",\"searchMinAUM\":null,\"searchMaxAUM\":null,\"compensationType\":{\"compPercentOfAuM\":null,\"compHourly\":null,\"compSubscriptionFee\":null,\"compFixedFee\":null,\"compCommissions\":null,\"compPerformanceBased\":null,\"compOther\":null},\"isAllCompensionTypeFilter\":null,\"services\":{\"serviceFinancialPlanning\":null,\"servicePortoflioMgmtIndvlSmallBiz\":null,\"servicePortoflioMgmtInvestmentCo\":null,\"servicePortfolioMgmtPooled\":null,\"servicePortfolioMgmtInstitutional\":null,\"servicePortfolioMgmtPension\":null,\"servicePortoflioMgmtFoF\":null,\"serviceNewsletter\":null,\"serviceRatingPricing\":null,\"serviceMarketTiming\":null,\"serviceEducation\":null,\"serviceOther\":null},\"isAllServiceFilter\":null,\"searchRegion\":\"\",\"searchMetro\":\"\",\"searchClientMin\":null,\"searchClientMax\":null,\"isFilterEmail\":false,\"isFilterLinkedIn\":false,\"searchFirmType\":\"-1\",\"searchFirmCRD\":\"\",\"tamp\":\"\",\"officeType\":\"\",\"auditorProvider\":\"\",\"primeBrokerProvider\":\"\",\"custodianProvider\":\"\",\"administratorProvider\":\"\",\"marketerProvider\":\"\",\"assetType\":\"\",\"firmAlias\":\"\",\"createdOn\":null,\"updatedOn\":null}",
+            "userEmail": "---",
+            "isSendingEmail": null,
+            "isOverride": null
+          }
+        ]
+      }
+    ]
+  }
+  ,
+  "regions": {
+    "data": [
+      {
+        "$id": "1",
+        "region": "Midwest",
+        "$values": ["West North Central", "East North Central"]
+      },
+      {
+        "$id": "2",
+        "region": "Northeast",
+        "$values": ["New England", "Middle Atlantic"]
+      },
+      {
+        "$id": "3",
+        "region": "South",
+        "$values": [
+          "East South Central",
+          "West South Central",
+          "South Atlantic"
+        ]
+      },
+      {
+        "$id": "4",
+        "region": "West",
+        "$values": ["Pacific", "Mountain"]
+      }
+    ]
+  },
+  "metros":{
+    "data": [
+      {
+        "$id": "1",
+        "$values": ["value1", "value2"]
+      },
+      {
+        "$id": "2",
+        "$values": ["value3", "value4"]
+      }
+    ]
+  },
+  "cities": {
+    "data": [
+      {
+        "$id": "1",
+        "$values": ["New York", "Los Angeles", "Chicago", "Houston", "Phoenix"]
+      }
+    ]
+  },
+  "states": {
+    "data": [
+      {
+        "$id": "1",
+        "$values": ["New York", "California", "Texas", "Florida", "Illinois"]
+      }
+    ]
+  },
+  "countries": {
+    "data": [
+      {
+        "$id": "1",
+        "$values": ["United States", "Canada", "United Kingdom", "Australia"]
+      }
+    ]
+  },
+  "serviceProviders": {
+    "auditor": {
+      "data": [
+        {
+          "$id": "1",
+          "$values": ["Deloitte", "PwC", "EY", "KPMG"]
+        }
+      ]
+    },
+    "primeBroker": {
+      "data": [
+        {
+          "$id": "1",
+          "$values": ["Goldman Sachs", "Morgan Stanley", "JP Morgan", "Bank of America"]
+        }
+      ]
+    },
+    "custodian": {
+      "data": [
+        {
+          "$id": "1",
+          "$values": ["State Street", "BNY Mellon", "Northern Trust", "Citigroup"]
+        }
+      ]
+    },
+    "administrator": {
+      "data": [
+        {
+          "$id": "1",
+          "$values": ["SS&C", "Citco", "Northern Trust", "State Street"]
+        }
+      ]
+    },
+    "marketer": {
+      "data": [
+        {
+          "$id": "1",
+          "$values": ["BlackRock", "Fidelity", "Vanguard", "Charles Schwab"]
+        }
+      ]
+    }
+  },
+  "assetTypes": {
+    "data": [
+      {
+        "$id": "1",
+        "$values": ["Equities", "Fixed Income", "Real Estate", "Private Equity", "Hedge Funds"]
+      }
+    ]
+  },
+  "tampOptions": {
+    "data": [
+      {
+        "$id": "1",
+        "$values": [
+          {
+            "$id": "2",
+            "idTAMPOption": 1,
+            "tampOptionName": "AssetMark",
+            "firmUserData": null
+          },
+          {
+            "$id": "3",
+            "idTAMPOption": 2,
+            "tampOptionName": "Envestnet",
+            "firmUserData": null
+          },
+          {
+            "$id": "4",
+            "idTAMPOption": 3,
+            "tampOptionName": "SEI",
+            "firmUserData": null
+          }
+        ]
+      }
+    ]
+  },
+  "firmTypeOptions": {
+    "data": [
+      {
+        "$id": "1",
+        "$values": [
+          {
+            "$id": "2",
+            "idFirmTypeOption": 1,
+            "firmTypeOptionName": "Family Office",
+            "firmTypes": {
+              "$id": "3",
+              "$values": []
+            }
+          },
+          {
+            "$id": "4",
+            "idFirmTypeOption": 2,
+            "firmTypeOptionName": "Investment Advisor",
+            "firmTypes": {
+              "$id": "5",
+              "$values": []
+            }
+          },
+          {
+            "$id": "6",
+            "idFirmTypeOption": 3,
+            "firmTypeOptionName": "Broker Dealer",
+            "firmTypes": {
+              "$id": "7",
+              "$values": []
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
