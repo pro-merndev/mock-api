@@ -11,5 +11,6 @@
   "/AssetTypes": "/assetTypes_values",
   "/NewFirms/TAMPOptions/InUse": "/tampOptions_values",
   "/FirmTypeOptions": "/firmTypeOptions_values",
-  "/SavedSearches": "/saved_searches"
+  "/SavedSearches": "/saved_searches",
+  "/SavedSearches/:id": "/saved_searches/:id"
 } 

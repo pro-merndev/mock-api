@@ -2,15 +2,9 @@ const jsonServer = require('json-server')
 const server = jsonServer.create()
 const router = jsonServer.router('db.json')
 const middlewares = jsonServer.defaults()
-const https = require('https')
 const fs = require('fs')
-const path = require('path')
 
-// SSL certificate options
-const options = {
-  key: fs.readFileSync(path.join(__dirname, 'ssl', 'server.key')),
-  cert: fs.readFileSync(path.join(__dirname, 'ssl', 'server.cert'))
-}
+
 
 server.use(middlewares)
 server.use(jsonServer.bodyParser)
@@ -50,6 +44,29 @@ server.post('/SavedSearches', (req, res) => {
     .write()
 
   res.status(201).json(newSearch)
+})
+
+// New DELETE route
+server.delete('/SavedSearches/:id', (req, res) => {
+  const db = router.db
+  const savedSearches = db.get('saved_searches')
+  
+  const id = parseInt(req.params.id)
+  const existingSearch = savedSearches.find({ id: id }).value()
+
+  if (!existingSearch) {
+    return res.status(404).json({
+      error: 'Saved search not found'
+    })
+  }
+
+  savedSearches
+    .remove({ id: id })
+    .write()
+
+  res.status(200).json({
+    message: 'Saved search deleted successfully'
+  })
 })
 
 // Add custom routes
