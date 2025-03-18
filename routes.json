@@ -10,5 +10,6 @@
   "/NewFirms/ServiceProviders/Marketer": "/marketer_values",
   "/AssetTypes": "/assetTypes_values",
   "/NewFirms/TAMPOptions/InUse": "/tampOptions_values",
-  "/FirmTypeOptions": "/firmTypeOptions_values"
+  "/FirmTypeOptions": "/firmTypeOptions_values",
+  "/SavedSearches": "/saved_searches"
 } 
