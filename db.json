@@ -195,5 +195,96 @@
         ]
       }
     ]
+  },
+  "cities_values": {
+    "$id": "",
+    "$values": ["New York", "Los Angeles", "Chicago", "Houston", "Phoenix"]
+  },
+  "states_values": {
+    "$id": "",
+    "$values": ["New York", "California", "Texas", "Florida", "Illinois"]
+  },
+  "countries_values": {
+    "$id": "",
+    "$values": ["United States", "Canada", "United Kingdom", "Australia"]
+  },
+  "auditor_values": {
+    "$id": "",
+    "$values": ["Deloitte", "PwC", "EY", "KPMG"]
+  },
+  "primeBroker_values": {
+    "$id": "",
+    "$values": ["Goldman Sachs", "Morgan Stanley", "JP Morgan", "Bank of America"]
+  },
+  "custodian_values": {
+    "$id": "",
+    "$values": ["State Street", "BNY Mellon", "Northern Trust", "Citigroup"]
+  },
+  "administrator_values": {
+    "$id": "",
+    "$values": ["SS&C", "Citco", "Northern Trust", "State Street"]
+  },
+  "marketer_values": {
+    "$id": "",
+    "$values": ["BlackRock", "Fidelity", "Vanguard", "Charles Schwab"]
+  },
+  "assetTypes_values": {
+    "$id": "",
+    "$values": ["Equities", "Fixed Income", "Real Estate", "Private Equity", "Hedge Funds"]
+  },
+  "tampOptions_values": {
+    "$id": "",
+    "$values": [
+      {
+        "$id": "2",
+        "idTAMPOption": 1,
+        "tampOptionName": "AssetMark",
+        "firmUserData": null
+      },
+      {
+        "$id": "3",
+        "idTAMPOption": 2,
+        "tampOptionName": "Envestnet",
+        "firmUserData": null
+      },
+      {
+        "$id": "4",
+        "idTAMPOption": 3,
+        "tampOptionName": "SEI",
+        "firmUserData": null
+      }
+    ]
+  },
+  "firmTypeOptions_values": {
+    "$id": "",
+    "$values": [
+      {
+        "$id": "2",
+        "idFirmTypeOption": 1,
+        "firmTypeOptionName": "Family Office",
+        "firmTypes": {
+          "$id": "3",
+          "$values": []
+        }
+      },
+      {
+        "$id": "4",
+        "idFirmTypeOption": 2,
+        "firmTypeOptionName": "Investment Advisor",
+        "firmTypes": {
+          "$id": "5",
+          "$values": []
+        }
+      },
+      {
+        "$id": "6",
+        "idFirmTypeOption": 3,
+        "firmTypeOptionName": "Broker Dealer",
+        "firmTypes": {
+          "$id": "7",
+          "$values": []
+        }
+      }
+    ]
   }
 }

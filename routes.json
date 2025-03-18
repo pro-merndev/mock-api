@@ -1,13 +1,13 @@
 {
-  "/NewFirms/Cities": "/cities",
-  "/NewFirms/States": "/states",
-  "/NewFirms/Countries": "/countries",
-  "/NewFirms/ServiceProviders/Auditor": "/serviceProviders/auditor",
-  "/NewFirms/ServiceProviders/PrimeBroker": "/serviceProviders/primeBroker",
-  "/NewFirms/ServiceProviders/Custodian": "/serviceProviders/custodian",
-  "/NewFirms/ServiceProviders/Administrator": "/serviceProviders/administrator",
-  "/NewFirms/ServiceProviders/Marketer": "/serviceProviders/marketer",
-  "/AssetTypes": "/assetTypes",
-  "/NewFirms/TAMPOptions/InUse": "/tampOptions",
-  "/FirmTypeOptions": "/firmTypeOptions"
+  "/NewFirms/Cities": "/cities_values",
+  "/NewFirms/States": "/states_values",
+  "/NewFirms/Countries": "/countries_values",
+  "/NewFirms/ServiceProviders/Auditor": "/auditor_values",
+  "/NewFirms/ServiceProviders/PrimeBroker": "/primeBroker_values",
+  "/NewFirms/ServiceProviders/Custodian": "/custodian_values",
+  "/NewFirms/ServiceProviders/Administrator": "/administrator_values",
+  "/NewFirms/ServiceProviders/Marketer": "/marketer_values",
+  "/AssetTypes": "/assetTypes_values",
+  "/NewFirms/TAMPOptions/InUse": "/tampOptions_values",
+  "/FirmTypeOptions": "/firmTypeOptions_values"
 } 
