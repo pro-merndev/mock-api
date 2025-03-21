@@ -793,5 +793,163 @@
       "isOverride": false,
       "createdAt": "2024-03-20T10:00:00Z"
     }
-  ]
+  ],
+  "managers_values": {
+    "$id": "1",
+    "$values": [
+      {
+        "$id": "2",
+        "id": 1,
+        "name": "Principal Dynamic Growth"
+      },
+      {
+        "$id": "3",
+        "id": 2,
+        "name": "BlackRock Global Investors"
+      }
+    ]
+  },
+  "attributes_values": {
+    "$id": "1",
+    "1": "Nonprofits",
+    "2": "Defined Benefit",
+    "3": "Other Investors"
+  },
+  "geographic_regions_values": {
+    "$id": "1",
+    "1": "North America",
+    "2": "Europe",
+    "3": "Asia Pacific"
+  },
+  "consultant_types_values": {
+    "$id": "1",
+    "1": "Investment",
+    "2": "Retirement",
+    "3": "General"
+  },
+  "consultants_values": {
+    "$id": "1",
+    "1": "Mercer",
+    "2": "Aon Hewitt",
+    "3": "Willis Towers Watson"
+  },
+  "lead_consultants_values": {
+    "$id": "1",
+    "1": "John Smith",
+    "2": "Mary Johnson",
+    "3": "Robert Williams"
+  },
+  "fund_groups_values": {
+    "$id": "1",
+    "1": "Equity Funds",
+    "2": "Fixed Income",
+    "3": "Alternative Investments"
+  },
+  "styles_values": {
+    "$id": "1",
+    "$values": [
+      {
+        "$id": "2",
+        "majorStyleId": 1,
+        "majorStyleName": "Active Equity",
+        "minorStyles": {
+          "$id": "3",
+          "$values": [
+            {
+              "$id": "4",
+              "minorStyleId": 1,
+              "minorStyleName": "130/30"
+            },
+            {
+              "$id": "5",
+              "minorStyleId": 15,
+              "minorStyleName": "All-Cap"
+            }
+          ]
+        }
+      },
+      {
+        "$id": "6",
+        "majorStyleId": 2,
+        "majorStyleName": "Fixed Income",
+        "minorStyles": {
+          "$id": "7",
+          "$values": [
+            {
+              "$id": "8",
+              "minorStyleId": 3,
+              "minorStyleName": "Core"
+            },
+            {
+              "$id": "9",
+              "minorStyleId": 4,
+              "minorStyleName": "High Yield"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "fund_types_values": {
+    "$id": "1",
+    "$values": [
+      {
+        "$id": "2",
+        "majorTypeId": 1,
+        "majorTypeName": "Mutual Funds",
+        "minorTypes": {
+          "$id": "3",
+          "$values": [
+            {
+              "$id": "4",
+              "minorTypeId": 1,
+              "minorTypeName": "Open-End"
+            },
+            {
+              "$id": "5",
+              "minorTypeId": 2,
+              "minorTypeName": "Closed-End"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "plans_search": {
+    "$id": "",
+    "plans": {
+      "$id": "",
+      "$values": [
+        {
+          "$id": "3",
+          "fundID": 16377,
+          "fundName": "Japan Government Pension Investment Fund",
+          "fundSize": 886621,
+          "fundType": "Public D.B.",
+          "phone": "81-3-3502-2486",
+          "city": "Tokyo",
+          "countryName": "Japan",
+          "website": "https://www.gpif.go.jp/en/",
+          "status": "Active",
+          "createdOn": "2024-01-01T00:00:00Z",
+          "updatedOn": "2024-03-15T00:00:00Z"
+        },
+        {
+          "$id": "4",
+          "fundID": 16378,
+          "fundName": "California Public Employees Retirement System",
+          "fundSize": 469800,
+          "fundType": "Public D.B.",
+          "phone": "916-795-3400",
+          "city": "Sacramento",
+          "state": "CA",
+          "countryName": "United States",
+          "website": "https://www.calpers.ca.gov",
+          "status": "Active",
+          "createdOn": "2024-01-01T00:00:00Z",
+          "updatedOn": "2024-03-15T00:00:00Z"
+        }
+      ]
+    }
+  }
 }

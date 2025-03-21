@@ -69,6 +69,58 @@ server.delete('/SavedSearches/:id', (req, res) => {
   })
 })
 
+// Custom POST route for Plans search
+server.post('/Plans', (req, res) => {
+  const db = router.db
+  const plans = db.get('plans_search')
+  
+  // Get search parameters from request body
+  const {
+    page = 1,
+    pageSize = 50,
+    isHideArchived,
+    isHideInactive,
+    planName,
+    state,
+    planSizeMin,
+    planSizeMax,
+    planSizeSort,
+    // ... other filters
+  } = req.body
+
+  // Return mock response
+  res.json({
+    $id: '',
+    plans: {
+      $id: '',
+      $values: [
+        {
+          $id: '3',
+          fundID: 16377,
+          fundName: 'Japan Government Pension Investment Fund',
+          fundSize: 886621,
+          fundType: 'Public D.B.',
+          phone: '81-3-3502-2486',
+          city: 'Tokyo',
+          // ... other fields with default null values
+        },
+        {
+          $id: '4',
+          fundID: 16378,
+          fundName: 'California Public Employees Retirement System',
+          fundSize: 469800,
+          fundType: 'Public D.B.',
+          phone: '916-795-3400',
+          city: 'Sacramento',
+          state: 'CA',
+          countryName: 'United States'
+          // ... other fields
+        }
+      ]
+    }
+  })
+})
+
 // Add custom routes
 const routes = JSON.parse(fs.readFileSync('routes.json'))
 server.use(jsonServer.rewriter(routes))

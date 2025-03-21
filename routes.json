@@ -12,5 +12,14 @@
   "/NewFirms/TAMPOptions/InUse": "/tampOptions_values",
   "/FirmTypeOptions": "/firmTypeOptions_values",
   "/SavedSearches": "/saved_searches",
-  "/SavedSearches/:id": "/saved_searches/:id"
+  "/SavedSearches/:id": "/saved_searches/:id",
+  "/OldFinSearches/Managers": "/managers_values",
+  "/OldFinSearches/Attributes": "/attributes_values",
+  "/OldFinSearches/GeographicRegions": "/geographic_regions_values",
+  "/OldFinSearches/ConsultantTypes": "/consultant_types_values",
+  "/OldFinSearches/Consultants": "/consultants_values",
+  "/OldFinSearches/LeadConsultants": "/lead_consultants_values",
+  "/OldFinSearches/FundGroups": "/fund_groups_values",
+  "/OldFinSearches/Styles": "/styles_values",
+  "/OldFinSearches/FundTypes": "/fund_types_values"
 } 
